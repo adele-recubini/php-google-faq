@@ -57,6 +57,7 @@ $google =[
      <meta charset="utf-8">
      <title></title>
      <link rel="stylesheet" href="dist/app.css">
+
    </head>
    <body>
 
@@ -72,11 +73,15 @@ $google =[
 
      </div>
 
+     <div class="container">
 
      <?php foreach ($google as $element)  { ?>
-       <h1><?php echo $element["faq"] ?></h1>
-       <span><?php echo $element["ansewer"] ?></span>
+       <h1><?php echo $element["faq"] ?></h1><br>
+       <span><?php echo $element["ansewer"] ?></span><br>
       <?php } ?>
+
+
+    </div>
 
    </body>
  </html>

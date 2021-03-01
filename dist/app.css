@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.navbar {
+  height: 100px;
+  display: fixed;
+}
+.navbar > ul {
+  display: inline-block;
+  line-height: 100px;
+  list-style-type: none;
+}
+.navbar > ul > li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}

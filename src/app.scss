@@ -4,13 +4,23 @@
 }
 
 .navbar{
-  height: 70px;
+  height: 100px;
+  display: fixed;
 
-  &>ul>li{
-    display: inline;
 
+  &>ul{
+    display: inline-block;
+    line-height: 100px;
+    list-style-type: none;
+  }
+  &>ul>li:hover{
+    color:blue;
+    cursor: pointer;
   }
 
+}
 
-
+.container{
+  width: 1200px;
+  margin: 0 auto;
 }
